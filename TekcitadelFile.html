@@ -1,0 +1,420 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TekCitadel Excercise</title>
+        <style type="text/css">
+            /* Default CSS */
+            body,
+            #body_style {
+                margin: 0;
+                padding: 0;
+                background: white;
+                font-size: 14px;
+                color: #313a42;
+            }
+
+            a {
+                color: aquamarine;
+            }
+
+            a img {
+                border: none;
+                text-decoration: none;
+                display: block;
+            }
+
+            table,
+            table td {
+                border-collapse: collapse;
+            }
+
+            td,
+            h1,
+            h2,
+            h3 {
+                font-family: arial, sans-serif;
+                color: #313a42;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4 {
+                color: #313a42 !important;
+                font-weight: normal;
+                line-height: 1.2;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            h3 {
+                font-size: 16px;
+            }
+
+            p {
+                margin: 0 0 1.6em 0;
+            }
+
+            /* Top header */
+            .topHeader {
+                background: rgb(204, 204, 255);
+            }
+
+            /* Logo (branding) */
+            .logoContainer {
+                padding: 20px 0px;
+                width: 320px;
+            }
+
+            .logoContainer a {
+                color: #7d15d3;
+            }
+
+            /* Webversion */
+            .webversion {
+                width: 200px;
+                text-align: right;
+            }
+
+            .webversion a {
+                display: block;
+            }
+
+            .webversion,
+            .webversion a {
+                color: #ffffff;
+                font-size: 10px;
+                text-decoration: underline;
+            }
+
+            /* Whitespace */
+            .whitespace {
+                font-family: 0px;
+                line-height: 0px;
+            }
+
+            /* Big header image */
+            .bigHeader img {
+                display: inline-flexbox;
+            }
+
+            .bigHeaderBackground {
+                background-color: whitesmoke;
+            }
+
+            /* Button */
+            .button {
+                padding: 10px 10px 10px 10px;
+                background-color: rgb(204, 204, 255);
+                text-align: center;
+            }
+
+            .button a {
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+
+            .sectionArticleTitle {
+                color: #f26c4f;
+            }
+
+            .introTitle {
+                font-size: 18px;
+                line-height: 1.2;
+                text-align: center;
+                padding: 20px 0px 5px 0px;
+            }
+
+            .introContent {
+                text-align: center;
+                padding: 0px 0px 20px 0px;
+            }
+
+            /* An article */
+            .sectionArticleContent {
+                line-height: 20px;
+                padding: 0px 0px 20px 0px;
+            }
+
+            .sectionArticleTitle {
+                font-size: 16px;
+                padding: 0 0 10px 0;
+            }
+
+            .sectionArticleImage {
+                padding: 0px 0px 20px 0px;
+            }
+
+            .sectionArticleImage img {
+                width: 50% !important;
+                height: auto;
+                -ms-interpolation-mode: bicubic;
+                display: block;
+            }
+
+            /* Footer */
+            .footer {
+                background-color: #E9F2F9;
+            }
+
+            .footNotes a {
+                color: #f26c4f;
+            }
+
+            /* CSS for specific screen width(s) */
+            @media only screen and (max-width: 480px) {
+
+                body,
+                table,
+                td,
+                p,
+                a,
+                li,
+                blockquote {
+                    -webkit-text-size-adjust: none !important;
+                }
+
+                body[yahoofix] table {
+                    width: 100% !important;
+                }
+
+                body[yahoofix] .bigHeader img {
+                    height: auto !important;
+                    max-width: 100% !important;
+                }
+
+                body[yahoofix] .webversion {
+                    display: none;
+                    font-size: 0;
+                    max-height: 0;
+                    line-height: 0;
+                    mso-hide: all;
+                }
+
+                body[yahoofix] .logoContainer {
+                    text-align: center;
+                }
+
+                body[yahoofix] .sectionArticleTitle,
+                body[yahoofix] .sectionArticleContent {
+                    text-align: center;
+                    padding: 0 10px 10px 5px;
+                }
+
+                body[yahoofix] .sectionPadding {
+                    padding: 0px 10px 0px 10px;
+                }
+
+                body[yahoofix] .introTitle {
+                    padding: 20px 10px 5px 10px;
+                     !important
+                }
+
+                body[yahoofix] .introContent {
+                    padding: 0px 10px 20px 10px !important;
+                }
+            }
+        </style>
+    </head>
+
+<body style="background:#ffffff;" yahoofix>
+    <span id="body_style" style="display:block">
+        <table border="0" cellspacing="0" cellpadding="0" width="100%" summary="" class="topHeader">
+            <tr>
+                <td>
+                    <table border="0" cellspacing="0" cellpadding="0" width="640" align="center" summary="">
+                        <tr>
+                            <td class="logoContainer">
+                                <a href="/" title="Lorem logo">
+
+                                </a>
+                            </td>
+
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+        </table>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" summary="" class="bigHeaderBackground">
+            <tr>
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0" width="640" align="center" summary="">
+                        <tr>
+                            <td class="bigHeader"><img src="http://bharat.tekcitadel.com/header.jpg" width="1000"
+                                    alt="" /></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table border="0" cellpadding="0" cellspacing="0" width="640" align="center" summary="">
+            <tr>
+                <td class="introTitle"><b><i>What we offer</b></i></td>
+            </tr>
+            <tr>
+                <td class="introContent">Below is a list of all the services we offer.</td>
+            </tr>
+        </table>
+
+        <table border="0" cellspacing="0" cellpadding="0" summary="" width="100%">
+            <tr>
+                <td>
+                    <table border="0" cellspacing="0" cellspacing="" summary="" width="640" align="center">
+                        <tr>
+                            <td class="sectionPadding">
+                                <table border="0" cellpadding="0" cellspacing="0" summary="" width="48%" align="left">
+                                    <tr>
+                                        <td class="sectionArticleImage" align="center">
+                                            <img src="http://bharat.tekcitadel.com/pic4.jpg" width="150" alt="" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="sectionArticleTitle" valign="top">Tourism</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="sectionArticleContent" valign="top" align="left">
+                                            We keep you updated about which sites to visit and at what season of the
+                                            year you can have excess
+                                            fun
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="button"><a href="#" title="">Register</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="whitespace" height="20">&nbsp;</td>
+                                    </tr>
+                                </table>
+                                <table border="0" cellpadding="0" cellspacing="0" summary="" width="48%" align="right">
+                                    <tr>
+                                        <td class="sectionArticleImage" align="center">
+                                            <img src="http://bharat.tekcitadel.com/pic1.jpg" width="150" alt="" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="sectionArticleTitle" valign="top">Dates</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="sectionArticleContent" valign="top" align="left">
+                                            Did you know you could sit at home and plan your dates at your favourite
+                                            spot without moving????
+                                            Yes we do all that for you
+                                            &#128540;
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="button"><a href="#" title="">Register</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="whitespace" height="20">&nbsp;</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="whitespace" height="20">&nbsp;</td>
+            </tr>
+        </table>
+
+        <table border="0" cellspacing="0" cellpadding="0" summary="" width="100%">
+            <tr>
+                <td>
+                    <table border="0" cellspacing="0" cellspacing="" summary="" width="640" align="center">
+                        <tr>
+                            <td class="sectionPadding">
+                                <table border="0" cellpadding="0" cellspacing="0" summary="" width="48%" align="left">
+                                    <tr>
+                                        <td class="sectionArticleImage" align="center">
+                                            <img src="http://bharat.tekcitadel.com/pic2.jpg" width="150" alt="" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="sectionArticleTitle" valign="top">Baking</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="sectionArticleContent" valign="top" align="left">
+                                            We know how much you love cookies. Don't stay too long without having some
+                                            because of your
+                                            busy schedule. Just a call away and your preferred recipe is followed.
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="button"><a href="#" title="">Register</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="whitespace" height="20">&nbsp;</td>
+                                    </tr>
+                                </table>
+                                <table border="0" cellpadding="0" cellspacing="0" summary="" width="48%" align="right">
+                                    <tr>
+                                        <td class="sectionArticleImage" align="center">
+                                            <img src="http://bharat.tekcitadel.com/pic3.jpg" width="150"
+                                                alt="" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="sectionArticleTitle" valign="top">Looking for an apartment</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="sectionArticleContent" valign="top" align="left">
+                                            Search no more......... We do all the job and invite you to locations that
+                                            fit your description
+                                            and if you love it upppsssss there your search ends. Happy right &#128519;
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="button"><a href="#" title="">Register</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="whitespace" height="20">&nbsp;</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="whitespace" height="20">&nbsp;</td>
+            </tr>
+        </table>
+
+        <table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" summary="" class="footer">
+            <tr>
+                <td class="whitespace" height="10">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="footNotes" align="center"><a href="#" title="Unsubscribe">Unsubscribe</a></td>
+                <td class="footNotes align=" right">Visit us at <a href="https://www.tekcitadel.com/">tekcitadel.com</a>
+            </tr>
+            <tr>
+                <td class="whitespace" height="10">&nbsp;</td>
+            </tr>
+        </table>
+    </span>
+</body>
+
+</html>
